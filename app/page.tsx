@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import LiveBlockchainSection from "@/components/home/LiveBlockchainSection";
 
 export default function Home() {
   return (
@@ -77,6 +78,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <LiveBlockchainSection />
 
       <section className="mx-auto max-w-7xl px-6 py-8 md:py-16">
         <div className="mb-12 max-w-2xl">
